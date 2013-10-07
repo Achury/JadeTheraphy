@@ -9,5 +9,49 @@ div.logo{
 	margin-left: 450px;
 	height: 210px;
   margin-bottom: 50px;
+  -webkit-border-radius: 70px;
+  position: relative;
+}
+.blur{
+  position: absolute;
+  width: 1150px;
+  height: 1150px;
+  background-color: white;
+  opacity: 0.4;
+  -webkit-border-radius: 70px;
+  margin-left: 65px;
+}
+.services{
+  background-color: black;
+  position: relative;
+  width: 900px;
+  height: 445px;
+  opacity: 0.5;
+  margin-left: 185px;
+  -webkit-border-radius: 75px;
+  text-align: center;
+  color:white;
+}
+.services li{
+  width: 150px;
+  margin-left: 400px;
+  text-align: left;
+}
 
+.services p{
+
+  width: 450px;
+  margin-left: 237px;
+}
+
+.contactus{
+  background-color: black;
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  opacity: 0.86;
+  margin-left: 961px;
+  -webkit-border-radius: 75px;
+  text-align: center;
+  color: white;
 }
