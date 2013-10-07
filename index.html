@@ -19,19 +19,57 @@
   </ol>
   <!-- Carousel items -->
   <div class="carousel-inner">
-    <div class="active item"><img src="../JadeTheraphy/Images/Spa Campestre Jade Therapy 1.jpg" alt=""></div>
-    <div class="item"><img src="../JadeTheraphy/Images/Spa Campestre Jade Therapy 2.jpg" alt=""></div>
-    <div class="item"><img src="../JadeTheraphy/Images/Chocolaterapia.jpg" alt=""></div>
+    <div class="active item"><img src="../JadeTheraphy/Images/1.jpg" alt="">
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/2.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>SPA CAMPESTRE JADE  THERAPY</h4>
+        <p>En medio de la naturaleza en un mágico lugar, ofrecemos terapias exóticas y relajantes que reconfortan los sentidos brindando salud placer y armonía.</p>
+      </div>
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/3.jpg"alt="">
+      <div class="carousel-caption">
+        <h4>HERBOAROMATERAPIA</h4>
+        <p>Hidromasaje espumoso con hierbas y aceites aromáticos relajantes, que suavizan la piel, estimulan y armonizan cuerpo y mete.</p>
+      </div>
+    </div>  
+    <div class="item"><img src="../JadeTheraphy/Images/4.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>FUENTE DE RELAJACIÓN </h4>
+        <p>Bañera Romana con hidromasaje, aromaterapia y manantial.</p>
+      </div>
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/5.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>FACIAL FOTOESTIMULADO</h4>
+        <p>Limpieza y tonificación facial con programas para la rosácea, la pigmentación, anti-edad, anti-acné, con productos hidratantes y mascarilla foto-estimulada, que contribuye a la producción de colágeno dejando la piel suave y tersa.</p>
+      </div>
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/6.jpg" alt="">
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/7.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>CHOCOLATERAPIA </h4>
+        <p>El aroma, los nutrientes y la cremosa textura del cacao,  se fusionan  para brindar una exótica terapia, dejando la piel sedosa y sensual, estimulando los sentidos. </p>
+      </div>
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/9.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>BAÑO TURCO </h4>
+        <p>Terapia respiratoria a base de hierbas y aromas esenciales.</p>
+      </div>
+    </div>
+    <div class="item"><img src="../JadeTheraphy/Images/10.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>SPA CAMPESTRE JADE  THERAPY</h4>
+        <p>En medio de la naturaleza en un mágico lugar, ofrecemos terapias exóticas y relajantes que reconfortan los sentidos brindando salud placer y armonía.</p>
+      </div>
+    </div>
   </div>
   <!-- Carousel nav -->
   <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
   <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
-  <script type="text/javascript" >
-    $(document).ready(function() {        
-        $('.carousel').carousel()
-    });
-  </script>    
   <script type="text/x-handlebars" data-template-name="index">
   </script>
 
@@ -39,7 +77,19 @@
   <script src="js/libs/handlebars-1.0.0.js"></script>
   <script src="js/libs/ember-1.0.0.js"></script>
   <script src="js/libs/bootstrap.js"></script>
+  <script src="js/libs/blur.js"></script>
   <script src="js/app.js"></script>
+  <script type="text/javascript" >
+    $(document).ready(function() {        
+        $('.carousel').carousel()
+    });
+  </script>
+  <script type="text/javascript" >
+   $('.blurjs').blurjs({
+      source: 'body',
+      overlay: 'rgba(0,100,100,0.1)'
+    });
+  </script>
 
 </body>
 </html>

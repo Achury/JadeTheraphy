@@ -2,15 +2,12 @@
 html, body {
     background: url("../Images/Background.jpg") no-repeat fixed;
     background-size: 1280px 750px;
-    /*filter:blur(6px);
-  	-o-filter:blur(6px);
-  	-ms-filter:blur(6px);
-  	-moz-filter:blur(6px);
-  	-webkit-filter:blur(6px);*/
 }
 div.logo{
 
 	content:url("../Images/Logo.jpg");
 	margin-left: 450px;
 	height: 210px;
+  margin-bottom: 50px;
+
 }
