@@ -9,13 +9,12 @@ div.logo{
 	margin-left: 450px;
 	height: 210px;
   margin-bottom: 50px;
-  -webkit-border-radius: 70px;
   position: relative;
 }
 .blur{
   position: absolute;
   width: 1150px;
-  height: 1150px;
+  height: 1340px;
   background-color: white;
   opacity: 0.4;
   -webkit-border-radius: 70px;
@@ -47,18 +46,27 @@ div.logo{
 .contactus{
   background-color: black;
   position: absolute;
-  width: 250px;
-  height: 130px;
-  opacity: 0.86;
-  -moz-opacity:0.86;
+  width: 900px;
+  height: 190px;
+  opacity: 0.5;
+  -moz-opacity: 0.86;
   -khtml-opacity: 0.86;
   filter: alpha(opacity=86);
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=86)";
-  margin-left: 961px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=86)";
+  margin-left: 193px;
+  margin-top: 30px;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
   -khtml-border-radius: 75px;
   border-radius: 75px;
   text-align: center;
   color: white;
+}
+
+.facebook{
+  display: run-in;
+  position: relative;
+  float: right;
+  margin-right: 175px;
+  margin-top: 50px;
 }
